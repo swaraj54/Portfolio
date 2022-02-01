@@ -2803,7 +2803,11 @@ h2 {
 } */
 
 
-
+.col-md-4 {
+    position: relative;
+    min-height: 10px;
+    
+}
 .cdcd {
     box-shadow: 1px 1px 12px 5px grey;
     max-width:29.33%;
@@ -2850,4 +2854,11 @@ h6 {
     max-width:140%;
     height:auto;
     margin-bottom: 15px;
+}
+.row:after {
+    clear: both;
+}
+.row:after, .row:before {
+    content: " ";
+    display: table;
 }
